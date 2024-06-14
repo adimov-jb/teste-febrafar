@@ -30,7 +30,7 @@ class AgendaDTO implements InterfaceDTO
             $request->titulo,
             $request->descricao,
             $request->status,
-            $request->agendaTipoId
+            $request->agendaTipo['id']
         );
     }
 }
